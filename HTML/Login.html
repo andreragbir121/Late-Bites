@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+<head>
+    <meta charset="utf-8">
+    <title>Login form</title>
+	<link rel="stylesheet" href="../CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<nav class="navbar">
+		<ul class="Nav-pages">
+			<li><a class="nav-links" href="../Index.html">Home</a></li>
+			<li><a class="nav-links" href="About.html">About</a></li>
+			<li><a class="nav-links" href="Menu.html">Menu</a></li>
+			<li><a class="nav-links" href="Contact.html">Contact</a></li>
+			<li><a class="nav-links" href="Review.html">Review</a></li>
+		</ul>
+	
+		<div class="Login-nav">
+			<button class="signup-btn" type="button" onclick="location.href='Login.html'">Login</button>
+			<button class="signup-btn" type="button" onclick="location.href='Register.html'">Sign-Up</button>
+		</div>
+	</nav>
+
+    <div class="login-box">
+		<h2 class="form-heading">Login</h2>
+
+        <form class="account-info" action="thank_you.html" Method="POST">
+			<label class="account-label" for="email">Email</label>
+			<input class="account-input" id="email" name="email" type="email" required><br>
+
+			<label class="account-label" for="password">Password</label>
+			<input class="account-input" type="password" id="password" name="password" required><br>
+			
+			<input type = "submit" value="submit" class="submit-btn">
+        </form>
+    </div>
+    <p class="existing-account">Need and account? <a href="Register.html">Sign Up Here</a></p>
+    
+</body>
+</html>

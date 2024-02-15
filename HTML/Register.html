@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>Signup form</title>
+	<link rel="stylesheet" href="../CSS/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<nav class="navbar">
+		<ul class="Nav-pages">
+			<li><a class="nav-links" href="../Index.html">Home</a></li>
+			<li><a class="nav-links" href="About.html">About</a></li>
+			<li><a class="nav-links" href="Menu.html">Menu</a></li>
+			<li><a class="nav-links" href="Contact.html">Contact</a></li>
+			<li><a class="nav-links" href="Review.html">Review</a></li>
+		</ul>
+	
+		<div class="Login-nav">
+			<button class="signup-btn" type="button" onclick="location.href='Login.html'">Login</button>
+			<button class="signup-btn" type="button" onclick="location.href='Register.html'">Sign-Up</button>
+		</div>
+	</nav>
+
+
+
+    <div class="signup-form" >
+
+        <h2 class="form-heading">Sign Up</h2>
+        <h4 class="reg-instruction">It's simple and easy</h4>
+
+        <form class="account-info" action="thank_you.html" Method="POST">
+          <label class="account-label" for="first-name">First Name</label>
+          <input class="account-input" id="first-name" name="first-name" type="text" required><br>
+
+          <label class="account-label" for="last-name">Last Name</label>
+          <input  class="account-input" id="last-name" name="last-name" type="text" required><br>
+		  
+		  <label class="account-label" for="User-name">User Name</label>
+          <input class="account-input" id="User-name" name="User-name" type="text" required><br>
+		  
+		    <label class="account-label" for="date-of-birth">Date of Birth</label>
+			<input class="account-input" id="date-of-birth" type="date" required><br>
+
+          <label class="account-label" for="email">Email</label>
+          <input class="account-input" id="email" name="email" type="email" required><br>
+
+          <label class="account-label" for="phone-number">Phone Number</label>
+          <input class="account-input" id="phone-number" name="phone-number" type="tel" required><br>
+
+          <label class="account-label" for="password">Password</label>
+          <input class="account-input" id="password" type="password" required><br>
+	
+		<input type = "submit" value="submit" class="submit-btn">
+
+        </form>
+      </div>
+    
+      <p class="existing-account">Already have an account? <a href="login.html">Login here</a></p>
+</body>
+</html>

@@ -1,0 +1,597 @@
+/*credits: 
+Code assist from w3schools.
+*/
+*{
+    color:#FE0000; /*text color throughout pages */
+    margin: 0;
+    font-family:"Berlin Sans FB";
+    background-color: #ffff00;
+}
+
+/*_______________Navigation Bar______________________*/
+
+.Nav-pages a{
+    text-decoration: none;
+	font-size:18px;
+	margin-top:10px;
+}
+
+.Nav-pages{
+    display: inline-flex;
+    margin-top: 5px;
+    padding:0;
+    list-style-type: none;
+    font-weight: 550;
+}
+
+.nav-links:hover{
+	color:#00ab41;
+}
+
+li{
+    margin:10px 0 0 15px;
+}
+
+nav:hover{
+	color:#00ab41;
+}
+
+.Login-nav{
+    display: inline-flex;
+    list-style-type: none;
+    padding-left: 790px;
+    font-weight: bold;
+}
+
+.login-btn,
+.signup-btn{
+    background: #16FF00;
+    font-weight: 550;
+    width: 70px;
+    height:40px;
+    border-radius: 10px;
+    border:3px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+	font-size:13px;
+}
+
+/*______________Home Page__________________*/
+
+.home-logo{
+    width: 280px;
+    height: auto;
+    position:relative;
+    display: block;
+    margin: 50px auto; 
+ 
+}
+.home-logo:hover{
+	transform: scale(1.05);
+
+}
+
+
+.slogan{
+    font-weight: 550;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 25px;
+
+}
+.short-description{
+    position: relative;
+    text-align: center;
+    margin: 0 100px 20px 100px;
+    font-size: 20px;
+}
+
+.menu-nav,
+.order-nav{
+    background: #16FF00;
+    margin-left: 10px;
+    font-weight: 500;
+    position: relative;
+    align-items: center;
+    border:3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+.menu-nav{
+    position: relative;
+    margin-left:44%;
+}
+.order-nav{
+    margin-left:1%;
+}
+
+.login-btn:hover,
+.signup-btn:hover,
+.menu-nav:hover,
+.order-nav:hover{
+    background:#00ab41;
+    transition: 0.4s;
+	transform: scale(1.1);
+}
+.agreement{
+	position: relative;
+    text-align: center;
+    margin: 30px 100px 0px 100px;
+    font-size: 20px;
+	
+}
+.terms{
+	color:#16FF00;
+}
+
+.terms:hover{
+	color:#00ab41;
+}
+
+/*__________________About page_____________________*/
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+  
+
+.about-img{
+    padding:0;
+    height: auto;
+    width: 430px;
+    margin-left:25px;
+}
+
+.about-img:hover{
+	transform: scale(1.05);
+
+}
+
+.about-title{
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about-slogan{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin:0 50px 25px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.opening-hrs,
+.about-description{
+    letter-spacing: 1px;
+    line-height:28px;
+    font-size: 18px;
+    margin:0 100px 0px;
+}
+
+.opening-hrs{
+	list-style-type: none;
+	margin: 0 45px;
+	padding-top:0;	
+}
+
+/*__________________Menu page______________________*/
+
+.heading{
+    position: relative;
+    text-align: center;
+    font-size: 75px;
+}
+.menu-choices{
+    text-align: center;
+    font-weight: 510;
+    position: relative;
+    font-size: 50px;
+    padding-top:20px;
+}
+
+.dish-list,
+.desserts-list
+{
+    position: relative;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(335px,auto));
+}
+
+.items {
+    display: flexbox;
+    border: 5px solid black;
+    position: relative;
+    border-radius: 8px;
+    margin:15px;
+}
+
+
+.item-img{
+    width: 95%;
+    border-radius: 0px;
+    display: block;
+    margin: 10px 0 0px 12px;
+    align-items: center;
+}
+
+.item-name {
+    font-size: 24px;
+    font-weight: 750;
+    margin:0 15px 0;
+    text-align: center;
+}
+.menu-addons,
+.item-description{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding:5px 16px 0px 16px;
+}
+
+.items:hover{
+	transform: scale(1.05);
+
+}
+
+
+.menu-addons{
+	list-style-type: none;
+	margin-bottom:20px;
+	padding-top:0;
+	text-align:left;
+	
+	
+}
+/*__________________Contact page_____________________*/
+.contact-form{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+} 
+
+ .contact-label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  
+.contact-input {
+    width: 100%;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:bold;
+  } 
+
+.name-input{
+    display: inline;
+  }
+
+.contact-submit-btn{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px; 
+    background-color: #16FF00;
+    border:1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 150px;
+    }
+.contact-submit-btn:hover{
+	background-color:#00ab41;
+    transition: 0.4s;
+    cursor:pointer;
+	transform: scale(1.1);
+
+	
+}
+/*__________________Review page_____________________*/
+
+.review-list{
+    position: relative;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(315px,auto));
+}
+
+.review{
+    border: 2px solid black;
+    position: relative;
+    margin:15px;
+    width: 300px;
+    height: auto;
+    z-index: 1;
+}
+
+.user-img{
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0 0px 70px;
+}
+
+
+.user-name {
+    font-size: 24px;
+    font-weight: 750;
+    margin:10px 0 0px 0;
+    text-align: center; 
+}
+
+.user-review{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    padding:5px 16px 16px 16px;
+    position: relative;
+    text-align: left;
+    color: black;
+}
+
+.user-image{
+	width: 100%;
+	height:100%;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.review:hover{
+	transform: scale(1.05);
+}
+
+.review-sub-heading{
+	position: relative;
+    text-align: center;
+    font-size: 40px;
+	padding:15px 0 0;
+	margin:0;
+}
+
+.user-comment{
+	font-size:18px;
+	padding:0 10px 10px;
+}
+
+
+.review-form{
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+}
+ 
+
+.review-label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  
+.user-review{
+    width: 100%;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:bold;
+  } 
+
+.name-input{
+    display: inline;
+  }
+
+
+.review-submit-btn{
+	width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px; 
+    background-color: #16FF00;
+    border:1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 150px;
+  
+    }
+	
+.review-submit-btn:hover{
+	background-color:#00ab41;
+    transition: 0.4s;
+    cursor:pointer;
+	transform: scale(1.1);
+}
+
+/*______________Login and signup page_____________*/
+.signup-form{
+    width: 360px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+  }
+
+
+.login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+  }
+
+.form-heading {
+    text-align: center;
+    padding-top: 15px;
+    font-size:50px;
+  }
+
+.reg-instruction {
+    text-align: center;
+  }
+
+.account-info {
+    width: 300px;
+    margin-left: 20px;
+  }
+
+.account-label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+
+.account-input {
+    width: 100%;
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:bold;
+  } 
+
+.submit-btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #16FF00;
+    border:1px solid black;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.submit-btn:hover{
+    background-color:#00ab41;
+    transition: 0.4s;
+    cursor:pointer;
+  }
+ 
+.existing-account{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 50px;
+  }
+
+.existing-account a {
+    color: #16FF00;
+    text-decoration: none;
+  }
+
+.existing-account a:hover{
+    color: #00ab41;
+  } 
+
+
+/*_______________thank you page_____________________*/
+
+
+.thank-you-msg {
+	margin:0;
+    text-align: center;
+    font-size: 150px;
+    max-width: 100%;
+}
+
+  /*Making the pages responsive */
+  @media (max-width: 700px) {
+    
+.Login-nav{
+	display:inline-flex;
+    margin: 0;
+    padding-left: 50px;
+}
+
+.login-btn,
+.signup-btn{
+	font-size:15px;
+    width: 70px;
+    height:30px;
+	padding:0;
+	font-weight:600;
+	text-decoration:none;
+  }
+  a{
+	  text-decoration:none;
+  }
+.Nav-pages{
+    display: inline-flex;
+	margin:0;
+    padding:0;
+    font-weight: 500;
+	font-size:18px;
+  }
+  
+  
+li{
+    margin-left:10px;
+}
+.short-description{
+	font-size:100%;
+}
+
+
+.short-description{
+	font-size:25px;
+}
+
+.home-btn{
+	margin-left:190px;
+}
+
+.menu-nav,
+.order-nav{
+    margin-left: 10px;
+	font-size:15px;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80px;
+	font-weight:600;
+}
+
+.about{
+    display: block;
+    align-items: center;
+}
+
+
+.about-img {
+	margin-left:25px;
+	padding:0;
+    }
+
+.about-title {
+    font-size: 50px;
+    }
+	
+.about-summary {
+    font-size: 20px;
+    margin: 0 10px 15px;
+    }
+
+.opening-hrs,
+.about-description {
+    font-size: 20px;
+    margin: 0 10px 0px; 
+	
+    }
+  }
