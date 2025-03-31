@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+		<ul class="Nav-pages">
+            <li><a class ="nav-links" href="../Index.html">Home</a></li>
+            <li><a class ="nav-links" href="About.html">About</a></li>
+            <li><a class ="nav-links" href="Menu.html">Menu</a></li>
+            <li><a class ="nav-links" href="Review.html">Review</a></li>
+            <li><a class ="nav-links" href="Contact.html">Contact</a></li>
+            <div class="Login-nav">
+				<button class="signup-btn" type="button" onclick ="location.href='HTML/Login.html'">Login</button>
+				<button class="signup-btn" type="button" onclick ="location.href='HTML/Register.html'">Sign-Up</button>
+            </div>
+        </ul>
+        
+    </nav>
+        
+        <h2 class = "heading">Order Online</h2>
+    
+      
+        <form action="thank_you.html" Method="POST" class="contact-form">
+            <label class="contact-label" for="first-name">First Name</label>
+            <input class="contact-input" id="first-name" name="first-name" type="text" required><br>
+    
+            <label class="contact-label" for="last-name">Last Name</label>
+            <input class="contact-input" id="last-name" name="Last-name" type="text" required><br>
+    
+            <label class="contact-label" for="email">Email</label>
+            <input class="contact-input" id="email" name="email" type="email" required><br>
+      
+            <label class="contact-label" for="phone-number">Phone Number</label>
+            <input class="contact-input" id="phone-number" name="phone-number" type="tel" required><br>
+    
+    
+            <label class="contact-label" for="menu-choice">Please enter your choice of item and dressings</label>
+            <textarea class="contact-input" id="menu-choice" name="message" rows="5" cols="70" required></textarea><br>
+            
+            <input type = "submit" value="submit" class="contact-submit-btn">
+    
+        </form>
+    
+    
+    
+</body>
+</html>

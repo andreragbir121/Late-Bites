@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <nav class="navbar">
+		<ul class="Nav-pages">
+            <li><a class ="nav-links" href="../Index.html">Home</a></li>
+            <li><a class ="nav-links" href="About.html">About</a></li>
+            <li><a class ="nav-links" href="Menu.html">Menu</a></li>
+            <li><a class ="nav-links" href="Review.html">Review</a></li>
+            <li><a class ="nav-links" href="Contact.html">Contact</a></li>
+            <div class="Login-nav">
+				<button class="signup-btn" type="button" onclick ="location.href='HTML/Login.html'">Login</button>
+				<button class="signup-btn" type="button" onclick ="location.href='HTML/Register.html'">Sign-Up</button>
+            </div>
+        </ul>
+        
+    </nav>
+    
+    <h2 class="heading">Review</h2>
+            <div class="review-list">
+            <div class="review">
+                <img class="user-img" src="../imgs/user1.png" alt="image to represent user-picture, display a faceless person with a red shirt">
+                <h4 class="user-name">Justin Timberlake</h4>
+                <p class="user-comment">Great customer service, and quality food.</p>
+            </div>
+        
+            <div class="review">
+                <img class="user-img" src="../imgs/user2.png" alt="blue statue of a faceless person icon">
+                <h4 class="user-name">Nicki James</h4>
+                <p class="user-comment">The food is great and delicious and I highly recommend it</p>
+            </div>
+        
+            <div class="review">
+                <img class="user-img" src="../imgs/user3.png" alt="faceless, light pink user icon">
+                <h4 class="user-name">Trina Lal</h4>
+                <p class="user-comment">The desserts are really mouth-watering</p>
+            </div>
+        
+            <div class="review">
+                <img class="user-img" src="../imgs/user4.png" alt="grey user icon image">
+                <h4 class="user-name">Billy Jones</h4>
+                <p class="user-comment">Hours are great for me, especially working as a night shift worker. and quick service, also helps to satisfy my hunger at night.</p>
+            </div>
+            </div>
+           
+           
+        <h3 class="review-sub-heading">Leave a Review:</h3>
+        
+             <form action="POST" class="review-form" >
+                <label class="review-label" for="user-image">your image</label>
+                <input class="user-image" id="user-image" name="user-image" type="file">
+        
+                
+                <label class="review-label" for="full-name">Full Name</label>
+                <input class="user-review" id="full-name" name="full-name" type="text">
+        
+                <label class="review-label" for="user-review">Your comment</label>
+                <textarea class="user-review" id="user-review" name="message" rows="5" cols="70"></textarea><br>
+                        <button class= "review-submit-btn">Submit</button>
+        
+                </form>
+    
+</body>
+</html>
